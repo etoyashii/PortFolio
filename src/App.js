@@ -410,6 +410,7 @@ export default function GameplayPortfolio() {
                                 <a
                                     href={project.link}
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="inline-block px-6 py-3 bg-cyan-500 text-black font-bold uppercase hover:bg-cyan-400 transition-all duration-300 neon-border-cyan relative overflow-hidden group"
                                 >
                                     <span className="relative z-10">&gt; VOIR LE PROJET_</span>
