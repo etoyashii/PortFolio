@@ -16,7 +16,7 @@ export default function GameplayPortfolio() {
     const profile = {
         firstName: "Emeric",
         lastName: "DEPREZ",
-        description: "aaaaaaaaaÉtudiant passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans la mécanique de jeu, l'IA, les systèmes de gameplay et l'UI/UX, je recherche un stage pour continuer à apprendre et contribuer à des projets ambitieux."
+        description: "Étudiant passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans la mécanique de jeu, l'IA, les systèmes de gameplay et l'UI/UX, je recherche un stage pour continuer à apprendre et contribuer à des projets ambitieux."
     };
 
     const projects = [
@@ -59,7 +59,7 @@ export default function GameplayPortfolio() {
         {
             id: 5,
             title: " CyberBonk - Roguelite TPS",
-            description: "Un roguelite cyberpunkk 3D en vue TPS, pour ce projet je me suis occupé de la map, j'ai donc appris a créer des shaders et a gérer le post process d'Unity, avec mon équipier nous comptons poursuivre ce projet pour l'amener a un autre niveau",
+            description: "Un roguelite cyberpunkk 3D en vue TPS, pour ce projet je me suis occupé de la map, j'ai donc appris a créer des shaders et a gérer le post process d'Unity, avec mon équipier nous comptons poursuivre ce projet pour l'amener a un autre niveau.",
             duration: "Temps de prod : état actuel : 1 semaine",
             image: BannerC,
             tags: ["Unity", "C#", "Combat System", "Animation", "VFX", "Shaders"],
@@ -409,6 +409,7 @@ export default function GameplayPortfolio() {
 
                                 <a
                                     href={project.link}
+                                    target="_blank"
                                     className="inline-block px-6 py-3 bg-cyan-500 text-black font-bold uppercase hover:bg-cyan-400 transition-all duration-300 neon-border-cyan relative overflow-hidden group"
                                 >
                                     <span className="relative z-10">&gt; VOIR LE PROJET_</span>
@@ -481,7 +482,7 @@ export default function GameplayPortfolio() {
                                     {skill.items.map((item, itemIndex) => (
                                         <div
                                             key={itemIndex}
-                                            className="flex items-center gap-2 text-gray-300 hover:text-pink-400 transition-colors duration-200"
+                                            className="flex items-center gap-2 text-gray-300 transition-colors duration-200"
                                         >
                                             <div className="w-2 h-2 bg-pink-400 transform rotate-45"></div>
                                             <span className="text-sm font-mono">&gt; {item}</span>
@@ -577,9 +578,6 @@ export default function GameplayPortfolio() {
 
                             <div className="text-center pt-6 border-t-4 border-yellow-500/30">
                                 <p className="text-gray-400 mb-4 font-mono uppercase text-sm">[ Disponible pour un stage à partir du 11 mai]</p>
-                                <div className="inline-block px-6 py-3 bg-yellow-500 text-black font-bold text-lg uppercase neon-border-yellow relative">
-                                    📅 DATE DE DISPONIBILITÉ
-                                </div>
                             </div>
 
                         </div>
