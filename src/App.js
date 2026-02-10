@@ -16,7 +16,7 @@ export default function GameplayPortfolio() {
     const profile = {
         firstName: "Emeric",
         lastName: "DEPREZ",
-        description: " Étudiant passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans la mécanique de jeu, l'IA, les systèmes de gameplay et l'UI/UX, je recherche un stage pour continuer à apprendre et contribuer à des projets ambitieux."
+        description: " Étudiant passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans la mécanique de jeu, l'IA, les systèmes de gameplay et l'UI/UX, je serais ravi d'intégrer une équipe pour continuer à apprendre et contribuer à des projets ambitieux."
     };
 
     const projects = [
