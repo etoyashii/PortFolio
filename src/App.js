@@ -16,7 +16,7 @@ export default function GameplayPortfolio() {
     const profile = {
         firstName: "Emeric",
         lastName: "DEPREZ",
-        description: " Étudiant passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans la mécanique de jeu, l'IA, les systèmes de gameplay et l'UI/UX, je serais ravi d'intégrer une équipe pour continuer à apprendre et contribuer à des projets ambitieux."
+        description: " Passionné par le développement gameplay, je crée des expériences de jeu immersives et innovantes. Spécialisé dans les systèmes de gameplay, je serais ravi d'intégrer une équipe pour continuer à apprendre et contribuer à des projets ambitieux."
     };
 
     const projects = [
@@ -338,7 +338,7 @@ export default function GameplayPortfolio() {
 
                         <div className="inline-block px-6 py-2 bg-yellow-500/20 border-2 border-yellow-400 relative">
                             <p className="text-xl text-yellow-300 font-bold uppercase" style={{ fontFamily: 'monospace' }}>
-                                &gt; Développeur Gameplay | En Recherche de Stage
+                                &gt; Développeur Gameplay | En Recherche de CDI
                             </p>
                         </div>
 
@@ -510,7 +510,7 @@ export default function GameplayPortfolio() {
 
                             <div className="text-center mb-10">
                                 <p className="text-xl text-gray-300 font-mono">
-                                    <span className="text-yellow-400 font-bold">&gt;&gt;</span> Vous avez un projet ou une opportunité de stage ?
+                                    <span className="text-yellow-400 font-bold">&gt;&gt;</span> Vous avez un projet ou une opportunité de poste ?
                                     <br />
                                     <span className="text-yellow-400 font-bold text-2xl">N'HÉSITEZ PAS À ME CONTACTER !</span>
                                 </p>
